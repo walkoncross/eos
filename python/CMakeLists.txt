@@ -4,3 +4,4 @@ set_target_properties(python-bindings PROPERTIES OUTPUT_NAME eos)
 
 install(TARGETS python-bindings DESTINATION python)
 install(FILES ${CMAKE_CURRENT_SOURCE_DIR}/demo.py DESTINATION python)
+install(FILES ${CMAKE_CURRENT_SOURCE_DIR}/demo.ipynb DESTINATION python)
